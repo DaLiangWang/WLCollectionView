@@ -11,6 +11,4 @@ Pod::Spec.new do |s|
     s.source_files = "WLCollectionView/Class/*.{h,m}"
     s.requires_arc = true
 
-    s.dependency "模型驱动的CollectionView"
-
 end
