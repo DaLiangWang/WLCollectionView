@@ -87,7 +87,7 @@
     } else {
         WLBaseCollectionViewLayerRow *row = [self.viewModel getCellModel:indexPath];
         NSString *cellT = [NSString stringWithFormat:@"CollectView-%ld-%ld",indexPath.section,indexPath.row];
-        NSLog(@"%@",cellT);
+//        NSLog(@"%@",cellT);
         UICollectionViewCell  *otherCell = nil;
         if (row.viewClass) {
             [collectionView registerClass:row.viewClass forCellWithReuseIdentifier:cellT];

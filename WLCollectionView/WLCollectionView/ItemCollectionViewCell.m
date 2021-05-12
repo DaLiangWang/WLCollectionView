@@ -17,7 +17,7 @@
 -(void)bind_row_data:(WLBaseCollectionViewLayerRow *)sender{
     if ([sender.data isKindOfClass:ItemCollectionViewCellModel.class]){
         ItemCollectionViewCellModel *model = sender.data;
-        NSLog(@"%@", model.string);
+//        NSLog(@"%@", model.string);
         self.title_label.text = model.string;
     }
 }
