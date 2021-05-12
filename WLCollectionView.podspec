@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name         = 'WLCollectionView'
-    s.version      = '1.0.2'
+    s.version      = '1.0.3'
     s.summary      = '一个模型驱动的CollectionView封装，减少复用代码'
     s.homepage     = 'https://github.com/DaLiangWang/WLCollectionView'
     s.license      = 'MIT'
