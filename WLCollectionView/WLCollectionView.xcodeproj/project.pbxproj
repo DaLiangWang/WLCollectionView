@@ -180,8 +180,8 @@
 				04114BD0264ABFC300B5B39D /* UICollectionViewCell+WLCell.m */,
 				04114BD4264ABFD500B5B39D /* UICollectionReusableView+WLReusableView.h */,
 				04114BD5264ABFD500B5B39D /* UICollectionReusableView+WLReusableView.m */,
-				1A54F645852447B4CFE218F0 /* NSObject+WLSel.m */,
 				1A54F781A978DC68765E2EB8 /* NSObject+WLSel.h */,
+				1A54F645852447B4CFE218F0 /* NSObject+WLSel.m */,
 			);
 			path = Categary;
 			sourceTree = "<group>";

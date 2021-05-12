@@ -20,11 +20,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     self.wlclass_collection_view.frame = self.view.frame;
     
     [self.view addSubview:self.wlclass_collection_view];
-
     [self reload];
 }
 -(void)reload{
