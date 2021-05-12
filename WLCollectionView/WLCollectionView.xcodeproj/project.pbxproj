@@ -63,7 +63,7 @@
 		04114BE8264AC28E00B5B39D /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
 		04114BEC264AC29A00B5B39D /* FootCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FootCollectionReusableView.h; sourceTree = "<group>"; };
 		04114BED264AC29A00B5B39D /* FootCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootCollectionReusableView.m; sourceTree = "<group>"; };
-		1A54F58EECD6A4B9686D729B /* WLCollectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCollectionHeader.h; sourceTree = "<group>"; };
+		04B0EEA5264BF54D001A9708 /* WLCollectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCollectionHeader.h; sourceTree = "<group>"; };
 		1A54F645852447B4CFE218F0 /* NSObject+WLSel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLSel.m"; sourceTree = "<group>"; };
 		1A54F781A978DC68765E2EB8 /* NSObject+WLSel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLSel.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,7 +121,7 @@
 		04114BAA264ABB5800B5B39D /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				1A54F58EECD6A4B9686D729B /* WLCollectionHeader.h */,
+				04B0EEA4264BF54D001A9708 /* Header */,
 				04114BFC264ACC0E00B5B39D /* View */,
 				04114BAB264ABB5800B5B39D /* Model */,
 				04114BAE264ABB5800B5B39D /* Delegate */,
@@ -171,6 +171,14 @@
 				04114BB1264ABB5800B5B39D /* WLCollectionView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		04B0EEA4264BF54D001A9708 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				04B0EEA5264BF54D001A9708 /* WLCollectionHeader.h */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 		1A54FBB58136F9DF8D273318 /* Categary */ = {
